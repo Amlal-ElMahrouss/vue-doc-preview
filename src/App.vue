@@ -71,6 +71,8 @@ export default {
         return `https://view.officeapps.live.com/op/view.aspx?src=${this.tempValue}`
       } else if (this.type === 'code' && this.language) {
         return `\`\`\`${this.language}\n${this.tempValue}\n\`\`\``
+      } else if (this.type === 'google') {
+        return `https://docs.google.com/gview?url=${this.tempValue}&embedded=true`
       } else {
         return this.tempValue
       }
