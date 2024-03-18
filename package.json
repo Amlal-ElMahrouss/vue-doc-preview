@@ -1,7 +1,7 @@
 {
   "name": "vue-doc-preview-2",
-  "version": "0.3.3",
-  "description": "Fork, A vue document preview component",
+  "version": "0.3.4",
+  "description": "A vue document preview component, this is a fork.",
   "keywords": [
     "document",
     "markdown",
@@ -41,8 +41,8 @@
     "iview": "^3.0.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
-    "vue": "^2.5.17",
-    "vue-template-compiler": "^2.5.17"
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
   },
   "postcss": {
     "plugins": {

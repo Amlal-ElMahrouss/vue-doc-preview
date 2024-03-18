@@ -121,7 +121,8 @@ export default {
         this.styler = `height: ${height}px`
       } else {
         // height小于等于100时为百分比高度
-        if (this.type === 'office') {
+        if (this.type === 'office' ||
+            this.type === 'google') {
           const contentHeight = this.getClientHeight() * height / 100
           this.styler = `height: ${contentHeight}px`
         } else {
