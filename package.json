@@ -1,21 +1,21 @@
 {
-  "name": "vue-doc-preview",
+  "name": "vue-doc-preview-2",
   "version": "0.3.2",
-  "description": "A vue document preview component",
+  "description": "Fork, A vue document preview component",
   "keywords": [
     "document",
     "markdown",
     "preview"
   ],
   "main": "./dist/vueDocPreview.umd.min.js",
-  "author": "cainsyake(cainsyake@qq.com)",
+  "author": "Amlal(amlalelmahrouss@qqicloud.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cainsyake/vue-doc-preview.git"
+    "url": "https://github.com/Amlal-ElMahrouss/vue-doc-preview.git"
   },
   "bugs": {
-    "url": "https://github.com/cainsyake/vue-doc-preview/issues",
-    "email": "cainsyake@qq.com"
+    "url": "https://github.com/Amlal-ElMahrouss/vue-doc-preview/issues",
+    "email": "amlalelmahrouss@icloud.com"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
